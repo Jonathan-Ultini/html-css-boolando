@@ -34,7 +34,7 @@ header {
   width: 100%;
   padding: 10px 20px;
   position: sticky;
-  z-index: 1;
+  z-index: 3;
   left: 0;
   right: 0;
   top: 0;
@@ -107,8 +107,50 @@ main {
   justify-content: center;
 }
 
-.photo{
+.photo {
   position: relative;
+  cursor: pointer;
+}
+
+.photo::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  z-index: 1; 
+}
+
+.photo:hover::after {
+  opacity: 1;
+}
+
+.photo:nth-child(1)::after {
+  background-image: url('../img/1b.webp');
+}
+
+.photo:nth-child(2)::after {
+  background-image: url('../img/2b.webp');
+}
+
+.photo:nth-child(3)::after {
+  background-image: url('../img/3b.webp');
+}
+
+.photo:nth-child(4)::after {
+  background-image: url('../img/4b.webp');
+}
+
+.photo:nth-child(5)::after {
+  background-image: url('../img/5b.webp');
+}
+
+.photo:nth-child(6)::after {
+  background-image: url('../img/6b.webp');
 }
 
 .label {
@@ -119,6 +161,7 @@ main {
   font-weight: bold;
   padding: 5px 5px;
   font-size: 12px;
+  z-index: 2;
 }
 
 .discount {
