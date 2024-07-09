@@ -129,27 +129,27 @@ main {
   opacity: 1;
 }
 
-.photo:nth-child(1)::after {
+.photo.photo-1::after {
   background-image: url('../img/1b.webp');
 }
 
-.photo:nth-child(2)::after {
+.photo.photo-2::after {
   background-image: url('../img/2b.webp');
 }
 
-.photo:nth-child(3)::after {
+.photo.photo-3::after {
   background-image: url('../img/3b.webp');
 }
 
-.photo:nth-child(4)::after {
+.photo.photo-4::after {
   background-image: url('../img/4b.webp');
 }
 
-.photo:nth-child(5)::after {
+.photo.photo-5::after {
   background-image: url('../img/5b.webp');
 }
 
-.photo:nth-child(6)::after {
+.photo.photo-6::after {
   background-image: url('../img/6b.webp');
 }
 
