@@ -134,6 +134,31 @@ main {
   left: 42px;
 }
 
+.brand{
+  font-size: small;
+  margin: 5px 0;
+}
+
+.name{
+  font-weight: bold;
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: black;
+  margin-left: 10px;
+}
+
+.price-container {
+  display: flex;
+  justify-content: left;
+}
+
 /* --------------------------------FOOTER----------------------------------- */
 
 footer {
