@@ -19,3 +19,45 @@ body {
 .flex{
   display: flex;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FF6600;
+  padding: 10px 20px;
+}
+
+header .logo img {
+  height: 40px;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer a {
+  color: #FF6600;
+  text-decoration: none;
+  margin: 0 5px;
+}
