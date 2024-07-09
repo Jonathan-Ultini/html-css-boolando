@@ -205,14 +205,33 @@ main {
 /* --------------------------------FOOTER----------------------------------- */
 
 footer {
-  background-color: #333;
+  background-color: #1A1A1A;
   color: #fff;
-  text-align: center;
-  padding: 10px 0;
+  padding: 10px 10px;
 }
 
 footer a {
-  color: #FF6600;
+  color: #fff;
   text-decoration: none;
   margin: 0 5px;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.info p{
+  font-size: 12px;
+}
+
+.info h3{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-social p{
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
 }
