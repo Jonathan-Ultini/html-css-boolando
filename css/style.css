@@ -38,6 +38,7 @@ header {
   left: 0;
   right: 0;
   top: 0;
+  margin-bottom: 30px;
 }
 
 header .navbar-logo img {
@@ -84,13 +85,21 @@ main {
 .row{
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 10px;
+  margin-bottom: 30px;
 }
 
 .col{
-  flex-basis: calc(100%/3);
-  border: 2px dashed black;
+  width: 100%;
 }
+
+.col img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .products {
   display: flex;
   flex-wrap: wrap;
@@ -102,25 +111,29 @@ main {
   position: relative;
 }
 
-.discount{
+.label {
   position: absolute;
-  bottom: 50px;
+  bottom: 30px;
   left: 0;
-  background-color: red;
   color: #fff;
   font-weight: bold;
-  padding: 5px 10px;
+  padding: 5px 5px;
+  font-size: 12px;
 }
 
-.green{
-  position: absolute;
-  bottom: 50px;
-  left: 62px;
-  background-color: green;
-  color: #fff;
-  font-weight: bold;
-  padding: 5px 10px;
+.discount {
+  background-color: red;
 }
+
+.green {
+  background-color: green;
+}
+
+.green-after{
+  background-color: green;
+  left: 42px;
+}
+
 /* --------------------------------FOOTER----------------------------------- */
 
 footer {
