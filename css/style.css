@@ -205,10 +205,12 @@ main {
 .hearts{
   color: black;
   font-size: 24px;
-  bottom: 380px;
-  left: 265px;
+  top: 30px;
+  right: 10px;
   background-color: #fff;
   padding: 7px;
+  height: 7%;
+  width: 9%;
   text-align: center;
 }
 
