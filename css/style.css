@@ -157,3 +157,37 @@ header{
 .article-name{
  text-transform: uppercase;
 }
+
+/* Footer */
+footer {
+  background-color: #1A1A1A;
+  color: #fff;
+  padding: 10px 10px;
+  margin-top: 20px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.info p{
+  font-size: 12px;
+}
+
+.info h3{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-social p{
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
